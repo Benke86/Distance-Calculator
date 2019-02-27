@@ -1,0 +1,69 @@
+input, #continent_holder, #country_holder, table, #inputs h4, .gmap_canvas_out {
+    float: left;
+}
+.err_txt{
+    color: red;
+}
+select{
+    width: 225px;
+    height: 21px;
+}
+input[type="text"]{
+    width: 221px;
+}
+input[type="button"]{
+    float: right;
+}
+table td{
+    border: 1px solid white;
+}
+table td:nth-child(4){
+    width: 290px;
+}
+.mapouter{
+    text-align:right;
+    height:218px;
+    width:400px;
+    float: left;
+}
+.mapouter_out {
+    height:218px;
+    width:100%;
+    float: left;
+}
+.gmap_canvas, .gmap_canvas_out {
+    background:none!important;
+}
+.gmap_canvas iframe, .gmap_canvas_out iframe{
+    border: none;
+}
+#start_location_data{
+    float: left;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+h4 {
+  text-decoration: underline;  
+}
+#inputs{
+    width: 100%;
+    height: 360px;
+}
+#results{
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    height: 360px;
+}
+#destination_location_data table{
+    margin-left: 15px;
+}
+#header {
+    background-image: linear-gradient(grey , lightgrey);
+}
+#start_location_data table td, #destination_location_data table td {
+    border-collapse: collapse;
+    border-bottom: 1px solid lightgrey;
+}

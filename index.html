@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Distance Calculator</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <div id="header"><h2>Distance Calculator from a Specified Start Point</h2></div>
+            <div id="inputs">
+            <table>
+                <tbody>
+                    <tr><td colspan="4"><h4>Destination Address Form</h4></td></tr>
+                    <tr id="continent">
+                        <td><label>Continent:</label></td><td><div id="continent_holder"></div></td><td><input type="checkbox" id="continent_manual_fill" title="Enter continent manually"></td><td id="continent_err" class="err_txt"></td>
+                    </tr>
+                    <tr id="country">
+                        <td><label>Country:</label></td><td><div id="country_holder"></div></td><td><input type="checkbox" id="country_manual_fill" title="Enter country manually"></td><td id="country_err" class="err_txt"></td>
+                    </tr>
+                    <tr id="city">
+                        <td><label>City:</label></td><td><input type="text" id="" class="page_input_field"></td><td></td><td id="city_err" class="err_txt"></td>
+                    </tr>
+                    <tr id="postal">
+                        <td><label>Postal Code:</label></td><td><input type="text" id="" class="page_input_field"></td><td></td><td id="postal_err" class="err_txt"></td>
+                    </tr>
+                    <tr id="street">
+                        <td><label>Street Name:</label></td><td><input type="text" id="" class="page_input_field"></td><td></td><td id="street_err" class="err_txt"></td>
+                    </tr>
+                    <tr id="type">
+                        <td><label>Street Type:</label></td><td><div id="street_type_holder"></div></td><td></td><td id="type_err" class="err_txt"></td>
+                    </tr>
+                    <tr id="house">
+                        <td><label>House Number:</label></td><td><input type="text" id="" class="page_input_field"></td><td></td><td id="house_err" class="err_txt"></td>
+                    </tr>
+                    <tr><td></td><td><input type="button" value="Calculate Distance" id="submit_request"></td><td></td><td></td></tr>
+                </tbody>          
+            </table>
+            <div class="mapouter">
+                <div><h4>Start Address Selected</h4></div>
+                <div class="gmap_canvas">
+                    <iframe width="400" height="218" id="gmap_canvas" src=""></iframe>                
+                </div>
+                <div id="start_location_data"></div>
+            </div>
+        </div>      
+        <div id="results"></div>
+    </body>
+</html>

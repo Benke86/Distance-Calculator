@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "53",
+               "short_name" : "53",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Alkotás utca",
+               "short_name" : "Alkotás u.",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "XII. kerület",
+               "short_name" : "XII. kerület",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Budapest",
+               "short_name" : "Budapest",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Magyarország",
+               "short_name" : "HU",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "1123",
+               "short_name" : "1123",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Budapest, Alkotás u. 53, 1123 Magyarország",
+         "geometry" : {
+            "location" : {
+               "lat" : 47.4907309,
+               "lng" : 19.023923
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.49207988029149,
+                  "lng" : 19.0252719802915
+               },
+               "southwest" : {
+                  "lat" : 47.4893819197085,
+                  "lng" : 19.0225740197085
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJg9RO0S7cQUcRX9jSm0mqDjU",
+         "plus_code" : {
+            "compound_code" : "F2RF+7H Budapest, Magyarország",
+            "global_code" : "8FVXF2RF+7H"
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}
